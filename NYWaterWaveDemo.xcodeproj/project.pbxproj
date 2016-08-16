@@ -13,6 +13,7 @@
 		4AF6AF1F1D62F1A300AD1034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF6AF1D1D62F1A300AD1034 /* Main.storyboard */; };
 		4AF6AF211D62F1A300AD1034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF6AF201D62F1A300AD1034 /* Assets.xcassets */; };
 		4AF6AF241D62F1A300AD1034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AF6AF221D62F1A300AD1034 /* LaunchScreen.storyboard */; };
+		4AF6AF2E1D62F1C800AD1034 /* NYWaterWaveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4AF6AF2D1D62F1C800AD1034 /* NYWaterWaveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4AF6AF201D62F1A300AD1034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AF6AF231D62F1A300AD1034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4AF6AF251D62F1A300AD1034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4AF6AF2C1D62F1C800AD1034 /* NYWaterWaveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NYWaterWaveView.h; sourceTree = "<group>"; };
+		4AF6AF2D1D62F1C800AD1034 /* NYWaterWaveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NYWaterWaveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +61,11 @@
 		4AF6AF131D62F1A300AD1034 /* NYWaterWaveDemo */ = {
 			isa = PBXGroup;
 			children = (
+				4AF6AF2B1D62F1B700AD1034 /* NYWaterWave */,
 				4AF6AF171D62F1A300AD1034 /* AppDelegate.h */,
 				4AF6AF181D62F1A300AD1034 /* AppDelegate.m */,
 				4AF6AF1A1D62F1A300AD1034 /* ViewController.h */,
 				4AF6AF1B1D62F1A300AD1034 /* ViewController.m */,
-				4AF6AF1D1D62F1A300AD1034 /* Main.storyboard */,
-				4AF6AF201D62F1A300AD1034 /* Assets.xcassets */,
-				4AF6AF221D62F1A300AD1034 /* LaunchScreen.storyboard */,
-				4AF6AF251D62F1A300AD1034 /* Info.plist */,
 				4AF6AF141D62F1A300AD1034 /* Supporting Files */,
 			);
 			path = NYWaterWaveDemo;
@@ -74,9 +74,22 @@
 		4AF6AF141D62F1A300AD1034 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4AF6AF1D1D62F1A300AD1034 /* Main.storyboard */,
+				4AF6AF201D62F1A300AD1034 /* Assets.xcassets */,
+				4AF6AF221D62F1A300AD1034 /* LaunchScreen.storyboard */,
+				4AF6AF251D62F1A300AD1034 /* Info.plist */,
 				4AF6AF151D62F1A300AD1034 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4AF6AF2B1D62F1B700AD1034 /* NYWaterWave */ = {
+			isa = PBXGroup;
+			children = (
+				4AF6AF2C1D62F1C800AD1034 /* NYWaterWaveView.h */,
+				4AF6AF2D1D62F1C800AD1034 /* NYWaterWaveView.m */,
+			);
+			path = NYWaterWave;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF6AF2E1D62F1C800AD1034 /* NYWaterWaveView.m in Sources */,
 				4AF6AF1C1D62F1A300AD1034 /* ViewController.m in Sources */,
 				4AF6AF191D62F1A300AD1034 /* AppDelegate.m in Sources */,
 				4AF6AF161D62F1A300AD1034 /* main.m in Sources */,

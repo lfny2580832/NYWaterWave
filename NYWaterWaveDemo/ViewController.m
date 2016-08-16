@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "NYWaterWaveView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,14 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    [self setUp];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)setUp
+{
+    NYWaterWaveView *waterWaveView = [[NYWaterWaveView alloc]initWithFrame:CGRectMake(0, 200, self.view.frame.size.width, 200)];
+    [self.view addSubview:waterWaveView];
 }
 
 @end
